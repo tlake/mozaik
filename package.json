@@ -1,15 +1,21 @@
 {
-  "name": "mozaik",
-  "version": "1.4.4",
+  "name": "@tlake/mozaik",
+  "version": "1.4.5",
   "description": "Mozaik dashboard composition tool",
   "repository": {
     "type": "git",
-    "url": "git://github.com/plouc/mozaik"
+    "url": "git://github.com/tlake/mozaik"
   },
   "author": {
     "name": "Raphaël Benitte",
     "url": "https://github.com/plouc"
   },
+  "contributors": [
+      {
+          "name": "Tanner Lake",
+          "url": "https://github.com/tlake"
+      }
+  ],
   "engines": {
     "node": "0.12.x",
     "npm": ">=3.0.0"
@@ -17,10 +23,10 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/plouc/mozaik/blob/master/LICENSE.md"
+      "url": "https://github.com/tlake/mozaik/blob/master/LICENSE.md"
     }
   ],
-  "homepage": "https://github.com/plouc/mozaik",
+  "homepage": "https://github.com/tlake/mozaik",
   "main": "src/Mozaik.js",
   "keywords": [
     "mozaik",

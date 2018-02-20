@@ -9,7 +9,7 @@ gulp.task('watch:styles', function () {
         config.mozaikSrc + path.join('styl', '**', '*'),                                // mozaïk base styles
         config.mozaikSrc + path.join('themes', '**', '*'),                              // mozaïk themes
         config.root      + path.join('themes', '**', '*'),                              // custom themes
-        config.root      + path.join('node_modules', 'mozaik-ext-*', 'styl', '**', '*') // extensions styles
+        config.root      + path.join('node_modules', '@tlake', 'mozaik-ext-*', 'styl', '**', '*') // extensions styles
     ], ['styles:dev']);
 });
 

@@ -13,7 +13,7 @@ var chalk  = require('chalk');
 gulp.task('collect:styles', function (done) {
     gutil.log(chalk.green('Collecting extensions styles'));
 
-    var files = glob.sync(config.root + 'node_modules/mozaik-ext-*/styl/index.styl');
+    var files = glob.sync(config.root + 'node_modules/@tlake/mozaik-ext-*/styl/index.styl');
 
     var lines = [
         '/**',

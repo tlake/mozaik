@@ -7,7 +7,7 @@ var chalk   = require('chalk');
 var fontsPaths = [
     config.mozaikRoot + 'node_modules/font-awesome/fonts/*',
     config.root + 'node_modules/font-awesome/fonts/*',
-    config.root + 'node_modules/mozaik-ext-*/assets/fonts/*',
+    config.root + 'node_modules/@tlake/mozaik-ext-*/assets/fonts/*',
     config.root + 'themes/*/assets/fonts/*',
     config.mozaikSrc + 'themes/*/assets/fonts/*'
 ];
@@ -25,7 +25,7 @@ gulp.task('copy:imgs', function () {
     gutil.log(chalk.green('Copying images from extensions and themes'));
 
     return gulp.src([
-            config.root + 'node_modules/mozaik-ext-*/assets/imgs/*',
+            config.root + 'node_modules/@tlake/mozaik-ext-*/assets/imgs/*',
             config.root + 'themes/*/assets/imgs/*',
             config.mozaikSrc + 'themes/*/assets/imgs/*'
         ])
